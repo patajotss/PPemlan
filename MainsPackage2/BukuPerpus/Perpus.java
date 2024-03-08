@@ -1,12 +1,12 @@
-package MainsPackage2.BukuPerpus; 
+package MainsPackage2.BukuPerpus;
 import java.util.Scanner;
 
 // Kelas untuk merepresentasikan buku
 class Book {
-    public String title;
-    public String author;
-    public int pageCount;
-    public String publisher;
+    private String title;
+    private String author;
+    private int pageCount;
+    private String publisher;
 
     public Book(String title, String author, int pageCount, String publisher) {
         this.title = title;
@@ -52,4 +52,3 @@ class Library {
         }
     }
 }
-

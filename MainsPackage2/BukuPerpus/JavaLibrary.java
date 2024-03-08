@@ -1,5 +1,4 @@
 package MainsPackage2.BukuPerpus;
-
 import java.util.Scanner;
 
 public class JavaLibrary {
@@ -56,15 +55,14 @@ public class JavaLibrary {
         scanner.close();
     }
     public void showtype(String[][] type, String categoryType) {
-                System.out.printf("Kategori %s\n\n", categoryType);
-                for (int i = 0; i < type.length; i++) {
-                        System.out.printf("Buku ke-%d\n"
-                                        + "1. %-15s: %s\n" + "2. %-15s: %s\n" + "3. %-15s: %s halaman\n"
-                                        + "4. %-15s: %s\n" + "5. %-15s: %s\n\n",
-                                        i + 1, "Judul Buku", type[i][0], "Penulis", type[i][1], "Jumlah Halaman",
-                                        type[i][2],
-                                        "Penerbit", type[i][3], "Tahun Terbit", type[i][4]);
-                }
+        System.out.printf("Kategori %s\n\n", categoryType);
+        for (int i = 0; i < type.length; i++) {
+                System.out.printf("Buku ke-%d\n"
+                                + "1. %-15s: %s\n" + "2. %-15s: %s\n" + "3. %-15s: %s halaman\n"
+                                + "4. %-15s: %s\n" + "5. %-15s: %s\n\n",
+                                i + 1, "Judul Buku", type[i][0], "Penulis", type[i][1], "Jumlah Halaman",
+                                type[i][2],
+                                "Penerbit", type[i][3], "Tahun Terbit", type[i][4]);
         }
 }
-
+}
