@@ -4,7 +4,6 @@ import java.time.LocalDate;
 
 public class Main {
     public static void main(String[] args) {
-        // Manusia cases
         Manusia lakiMenikah = new Manusia("John Doe", true, "1234567890", true);
         Manusia perempuanMenikah = new Manusia("Jane Doe", false, "0987654321", true);
         Manusia belumMenikah = new Manusia("Alex Smith", true, "1122334455", false);
