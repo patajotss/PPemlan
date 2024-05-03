@@ -4,7 +4,6 @@ public class Main {
     public static void main(String[] args) {
         Kue[] kueArray = new Kue[20];
 
-        // Mengisi array dengan objek kue secara acak
         for (int i = 0; i < kueArray.length; i++) {
             if (i % 2 == 0) {
                 kueArray[i] = new KuePesanan("KuePesanan" + i, 1000 + i * 10, 2 + i * 0.5);
@@ -37,7 +36,6 @@ public class Main {
             }
         }
 
-        // Menampilkan hasil
         System.out.println("Total harga semua kue: " + totalHarga);
         System.out.println("Total harga dan berat Kue Pesanan: " + totalHargaPesanan + ", " + totalBeratPesanan);
         System.out.println("Total harga dan jumlah Kue Jadi: " + totalHargaJadi + ", " + totalJumlahJadi);
